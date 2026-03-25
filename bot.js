@@ -1,7 +1,7 @@
 import { Client, GatewayIntentBits, Events, REST, Routes, SlashCommandBuilder } from "discord.js";
 
 const token = process.env.DISCORD_TOKEN;
-if (!token) {
+if (!MTQ4NTIyMTExNjYxNTA2OTc1Nw.GBFP6W.eWUUKhioPNLK5p5w3_MN_5JVxGfc356QB98CII) {
   console.error("DISCORD_TOKEN environment variable is not set!");
   process.exit(1);
 }
@@ -127,5 +127,5 @@ client.on(Events.InteractionCreate, async (interaction) => {
 
 client.on(Events.Error, (err) => console.error("Discord error:", err));
 
-client.login(token);
+client.login(MTQ4NTIyMTExNjYxNTA2OTc1Nw.GBFP6W.eWUUKhioPNLK5p5w3_MN_5JVxGfc356QB98CII);
     
